@@ -2,7 +2,8 @@ import sys
 import cv2
 
 
-# 카메라 열기
+# 카메라 열기 
+# 첫번째 카메라는 0번
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
